@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+}
+h1 {
+  margin: 0;
+}
+
+:root {
+  --white-color: rgb(241, 252, 251);
+  --snow: rgb(255, 250, 250);
+  --transparent: rgba(0, 0, 0, 0.3);
+  --light-sky-blue: rgb(135, 206, 250);
+  --deep-pink: rgb(255, 20, 147);
+}
+
+.main {
+  background-color: var(--light-sky-blue);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.container {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-position: center;
+  background-size: cover;
+  box-shadow: 4px 1px 1px 1px var(--shadow);
+  height: fit-content;
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
+  width: 520px;
+}
+
+.boxes {
+  background-color: var(--snow);
+  background-position: center;
+  background-size: cover;
+  height: fit-content;
+  transition: transform 0.2s ease-in-out;
+  width: 100%;
+
+}
+
+.imgCards {
+  background-position: center;
+  background-size: cover;
+  height: 214px;
+  transition: transform 0.2s ease-in-out;
+  width: 100%;
+}
+
+.img-1- {
+ background-image: url('/img-1-.jpg');
+}
+
+.img-2- {
+  background-image: url('/img-2-.jpg');
+
+}
+
+.img-3- {
+  background-image: url('/img-3-.jpg');
+
+}
+
+.title {
+  color: var(--white-color);
+  left: 20px;
+  position: absolute;
+  -webkit-text-stroke: 2px var(--light-sky-blue);
+  top: 160px;
+}
+
+.button {
+  background-color: var(--deep-pink);
+  bottom: 4px;
+  color: var(--snow);
+  cursor: pointer;
+  height: 40px;
+  margin: 1rem;
+  width: 100px;
+}
+
+.paragraph {
+  height: auto;
+  min-height: 100px;
+  margin: 1rem;
+  text-align: start;
+  text-overflow: ellipsis;
+
+}
+
+.driver {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
